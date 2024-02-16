@@ -1,0 +1,239 @@
+@font-face {
+    font-family:gilroybold;
+    src: url(fonts/Gilroy-Bold.ttf);
+}
+@font-face{
+    font-family:gilroyreguler;
+    src: url(fonts/Gilroy-Regular.ttf);
+}
+
+
+*{
+    margin: 0%;
+    padding:0%;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+    height:96%;
+}
+.Michelle{
+    letter-spacing: 0.1cm;
+}
+.header-area{
+    background-color: white;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    text-decoration: none;
+    height: 133px;
+    
+}
+.header a{
+    text-decoration: none;
+   color: black;
+   font-family:gilroyreguler;
+   
+   
+}
+
+
+.header ul li{
+    display: inline-block;
+
+}
+.header ul li a{
+    text-decoration: none;
+    font-family: gilroyreguler;
+    font-weight: 400;
+    font-size: 14;
+    color: black;
+    margin-right: 43px;
+   
+  
+}
+
+/* header area end/ */
+.banner-area{
+    background-image: url(images/banner/girl-bed.png);
+    height: 683px;
+    background-size: cover;
+}
+.banner{
+    position:absolute;
+    
+}
+.welcome-text{
+  height:83px;
+    margin-top: 100px;
+    margin-left: 112px;
+    width:359px;
+    background-color: white;
+     text-align: center;  
+     font-family:gilroybold;
+     letter-spacing:43.5% ;
+     font-size: 30px; 
+}
+.p-welcome{
+    height:56px;
+    margin-top:20px;
+    margin-left: 112px;
+    width:495px;
+    background-color: white;
+     text-align: center; 
+     font-family: gilroyreguler;
+     font-size: 24px;   
+}
+
+/* banner area end/ */
+
+.relationship{
+    width: 1440px;
+    height: 683px;
+   
+}
+.relationship-text p{
+    font-family: gilroyreguler; 
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 8%;
+    margin-right:8%;
+  margin-bottom: 1.5%;
+
+}
+.when{
+    font-family: gilroyreguler; 
+    font-size: 18px;
+    opacity: 70%;
+    line-height:21.83px;
+}
+.img-h-w{
+    width: 371.87px;
+    height: 398px;
+    margin-top:25%;
+}
+.hole{
+    display: flex;
+    justify-content: space-between;
+
+}
+.margin-relation{
+    margin-top: 15%;
+}
+.fa-facebook {
+    width: Hug (144px);
+    height: Hug (33.23px);
+    padding-left: 126px;
+    
+    
+}
+
+   
+
+.l-m a{
+  text-decoration: none;  
+  color:black 
+}
+.l-m{
+    width: 171px;
+    height:42px;
+    background-color: white;
+    margin-top: 4%;
+ 
+}
+/* relationship end/ */
+.second-banner-area{
+    background-image: url(images/banner/girl-uncle.png);
+    height: 680px;
+    background-size: cover;
+
+}
+.second-banner{
+        position:absolute;
+}
+
+.services-text{
+    width:359px;
+    height:83px;
+    background-color: white;
+    margin-left: 112px;
+     
+}
+.services{
+   text-align: center;
+   margin-top: 100px;
+    font-family:gilroybold;
+    letter-spacing:43.5%;
+    font-size: 38px;
+    padding-top: 5%;
+}
+.p-services{
+    margin-left: 112px; 
+    height:80px;
+    margin-top:20px;
+    width:1134px;
+    background-color: white;
+     text-align: center; 
+     font-family: gilroyreguler;
+     font-size: 24px; 
+}
+.p-align{
+   padding-top:1%; 
+}
+/* second banner end/ */
+.adults{
+    display: flex;
+    
+}
+.adults-f-text{
+    margin-top: 5%;
+    line-height: 150%;
+    font-family: gilroyreguler;
+    margin-left:8%;
+}
+.p-line{
+  margin-top: 2%;  
+}
+.adults-sec-text{
+    margin-top: 5%;
+    line-height: 150%;
+    font-family: gilroyreguler;
+    margin-left:4% ;
+    margin-right: 5%;
+}
+.ul-all{
+    padding-left: 5%;
+}
+/* adults end/ */
+.leaf-area{
+    background-image:url(images/banner/leaf.png) ;
+    height:590px;
+    background-size: cover;
+    margin-top: 8%;
+}
+.leaf-1{
+   margin-left: 4%;
+   background-color: white;
+   width:250px;
+    height:60px;
+   text-align: center;
+   margin-top: 5%;
+
+}
+.leaf-text{
+   padding-top: 3%;
+}
+.leaf-2{
+    margin-left: 4%;
+    background-color: white;
+    width:450px;
+     height:50px;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 24px;
+
+    
+}
